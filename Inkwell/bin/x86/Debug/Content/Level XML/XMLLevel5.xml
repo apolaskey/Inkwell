@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, scalar: 1, ambient and diffuse: 255 255 255 255-->
+<!--<doodad position ="0 0 0" rotation="0 0 0" alpha="1" scalar="1" 
+ ambientColor="0 0 0 0" diffuseColor="255 255 255 255" locationModel="Models\Planes\Plane0" 
+locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1" />-->
+
+<level5>
+  <assets>
+    <doodad ID="wall" position="90 -10 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\WallBoxMK2" locationTexture="Textures\Environment\Cave\InnerCave_Middle" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <!--<wall ID="wall" position="90 -10 -176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\WallBox" locationTexture="Textures\Environment\Cave\OuterCave_Middle" modelProps="Alpha" tileVec="1 1" />-->
+    <doodad ID="land" position="180 -50 0" rotation ="0 0 0" diffuseEnabled="true" scalar ="1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Environment\Ground\Dark Stones" modelProps="Opaque" tileVec="7 7" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position ="160 0 60" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position ="260 0 55" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "10 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "300 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "120 0 85" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "80 0 110" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "130 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "210 0 35" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+  </assets>
+  <entities>
+    <enemy EnemyType="Hedgehog" position="180 0 -25" />
+    <enemy EnemyType="Hedgehog" position="185 0 -35" />
+    <enemy EnemyType="Hedgehog" position="190 0 -45" />
+    <enemy EnemyType="Hedgehog" position="195 0 -40" />
+    <enemy EnemyType="Hedgehog" position="200 0 -25" />
+    <enemy EnemyType="Hedgehog" position="205 0 -50" />
+    <enemy EnemyType="Hedgehog" position="210 0 15" />
+    <enemy EnemyType="Hedgehog" position="215 0 -35" />
+    <enemy EnemyType="Hedgehog" position="220 0 -25" />
+    <enemy EnemyType="Hedgehog" position="225 0 -35" />
+    <enemy EnemyType="Hedgehog" position="230 0 -45" />
+    <enemy EnemyType="Hedgehog" position="235 0 -40" />
+    <enemy EnemyType="Hedgehog" position="240 0 -25" />
+    <enemy EnemyType="Hedgehog" position="245 0 -50" />
+    <enemy EnemyType="Hedgehog" position="250 0 -15" />
+    <enemy EnemyType="Hedgehog" position="255 0 -35" />
+    <enemy EnemyType="Hedgehog" position="260 0 -25" />
+    <enemy EnemyType="Hedgehog" position="265 0 -35" />
+    <enemy EnemyType="Hedgehog" position="270 0 -45" />
+    <enemy EnemyType="Hedgehog" position="270 0 -40" />
+    <enemy EnemyType="Hedgehog" position="280 0 -25" />
+    <enemy EnemyType="Hedgehog" position="285 0 -50" />
+    <enemy EnemyType="Hedgehog" position="290 0 -15" />
+    <enemy EnemyType="Hedgehog" position="295 0 -35" />
+        <enemy EnemyType="Hedgehog" position="180 0 -45" />
+    <enemy EnemyType="Hedgehog" position="185 0 -55" />
+    <enemy EnemyType="Hedgehog" position="190 0 -35" />
+    <enemy EnemyType="Hedgehog" position="195 0 -20" />
+    <enemy EnemyType="Hedgehog" position="200 0 -45" />
+    <enemy EnemyType="Hedgehog" position="205 0 -40" />
+    <enemy EnemyType="Hedgehog" position="210 0 -25" />
+    <enemy EnemyType="Hedgehog" position="215 0 -45" />
+    <enemy EnemyType="Hedgehog" position="220 0 -55" />
+    <enemy EnemyType="Hedgehog" position="225 0 -45" />
+    <enemy EnemyType="Hedgehog" position="230 0 -35" />
+    <enemy EnemyType="Hedgehog" position="235 0 -50" />
+    <enemy EnemyType="Hedgehog" position="240 0 -35" />
+    <enemy EnemyType="Hedgehog" position="245 0 -40" />
+    <enemy EnemyType="Hedgehog" position="250 0 -25" />
+    <enemy EnemyType="Hedgehog" position="255 0 -45" />
+    <enemy EnemyType="Hedgehog" position="260 0 15" />
+    <enemy EnemyType="Hedgehog" position="265 0 15" />
+    <enemy EnemyType="Hedgehog" position="270 0 15" />
+    <enemy EnemyType="Hedgehog" position="270 0 10" />
+    <enemy EnemyType="Hedgehog" position="280 0 -35" />
+    <enemy EnemyType="Hedgehog" position="285 0 -40" />
+    <enemy EnemyType="Hedgehog" position="290 0 -25" />
+    <enemy EnemyType="Hedgehog" position="295 0 -55" />
+
+    <enemy EnemyType="Hedgehog" position="210 0 5" />
+    <enemy EnemyType="Hedgehog" position="215 0 0" />
+    <enemy EnemyType="Hedgehog" position="220 0 5" />
+    <enemy EnemyType="Hedgehog" position="225 0 0" />
+    <enemy EnemyType="Hedgehog" position="230 0 5" />
+    <enemy EnemyType="Hedgehog" position="235 0 0" />
+    <enemy EnemyType="Hedgehog" position="240 0 5" />
+    <enemy EnemyType="Hedgehog" position="245 0 0" />
+    <enemy EnemyType="Hedgehog" position="250 0 5" />
+    <enemy EnemyType="Hedgehog" position="255 0 0" />
+    <enemy EnemyType="Hedgehog" position="260 0 5" />
+    <enemy EnemyType="Hedgehog" position="265 0 0" />
+    <enemy EnemyType="Hedgehog" position="270 0 5" />
+    <enemy EnemyType="Hedgehog" position="270 0 0" />
+    <enemy EnemyType="Hedgehog" position="280 0 5" />
+    <enemy EnemyType="Hedgehog" position="285 0 0" />
+    <enemy EnemyType="Hedgehog" position="290 0 5" />
+
+
+    <enemy EnemyType="Hedgehog" position="180 0 -50" />
+    <enemy EnemyType="Hedgehog" position="185 0 -55" />
+    <enemy EnemyType="Hedgehog" position="190 0 -45" />
+    <enemy EnemyType="Hedgehog" position="195 0 -40" />
+    <enemy EnemyType="Hedgehog" position="200 0 -25" />
+    <enemy EnemyType="Hedgehog" position="205 0 -80" />
+    <enemy EnemyType="Hedgehog" position="210 0 -65" />
+    <enemy EnemyType="Hedgehog" position="215 0 -75" />
+    <enemy EnemyType="Hedgehog" position="220 0 -25" />
+    <enemy EnemyType="Hedgehog" position="225 0 -35" />
+    <enemy EnemyType="Hedgehog" position="230 0 -45" />
+    <enemy EnemyType="Hedgehog" position="235 0 -40" />
+    <enemy EnemyType="Hedgehog" position="240 0 -25" />
+    <enemy EnemyType="Hedgehog" position="245 0 -50" />
+    <enemy EnemyType="Hedgehog" position="250 0 -85" />
+    <enemy EnemyType="Hedgehog" position="255 0 -95" />
+    <enemy EnemyType="Hedgehog" position="165 0 -65" />
+    <enemy EnemyType="Hedgehog" position="160 0 -85" />
+    <enemy EnemyType="Hedgehog" position="185 0 -75" />
+    <enemy EnemyType="Hedgehog" position="170 0 -80" />
+    <enemy EnemyType="Hedgehog" position="165 0 -55" />
+    <enemy EnemyType="Hedgehog" position="160 0 -50" />
+    <enemy EnemyType="Hedgehog" position="175 0 -75" />
+    <enemy EnemyType="Hedgehog" position="170 0 -35" />
+
+
+  </entities>
+</level5>

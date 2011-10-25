@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Plane01</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Andrew\Desktop\Dropbox\Inkwell\Inkwell\Content\Models\Basic Objects\ParticleModel.FBX</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>2.54 0 0 0 0 2.54 1.11026928E-07 0 0 -1.11026928E-07 2.54 0 0 25.4 3.105881E-22 1</Transform>
+    <Positions>-10 -10 0 10 -10 0 -10 10 0 10 10 0</Positions>
+    <Geometry>
+      <Batch>
+        <Indices>2 1 0 1 2 3</Indices>
+        <Vertices>
+          <PositionIndices>2 0 3 1</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 0 0 1 1 0 1 1</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+</XnaContent>

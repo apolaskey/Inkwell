@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, ambient and diffuse: 255 255 255 255, scalar: 1-->
+<level12>
+  <assets>
+    <doodad position = "156 0 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Movable" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "468 55 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Movable" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "780 110 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Movable" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "1092 110 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Movable" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    
+    <doodad position = "0 -55 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Land" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "312 0 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Land" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "624 55 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Land" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "936 110 0" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Land" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+
+    <doodad position = "0 0 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Backwall" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "312 55 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Backwall" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "624 110 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Backwall" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "936 165 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Backwall" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+
+    <doodad position = "156 55 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Corner" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "468 110 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Corner" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "780 165 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Corner" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "1092 165 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Corner" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+
+    <doodad position = "156 128.5 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Pyramid" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "468 183.5 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Pyramid" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "780 238.5 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Pyramid" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "1092 238.5 156" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Pyramid" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+
+    <doodad position = "156 0 82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "156 0 -82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "468 55 82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "468 55 -82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "780 110 82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "780 110 -82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "1092 110 82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "1092 110 -82.5" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\Level12_Sidewall" locationTexture="Textures\Level Textures\Level15\CastleTile" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+
+    <doodad position = "900 164 200" rotation = "0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Levels\Level12\castle" locationTexture="Textures\Level Textures\Level12\castle" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+  </assets>
+  <entities>
+    <enemy EnemyType ="BlackCard" position = "50 0 100" />
+    <enemy EnemyType ="RedCard" position = "100 0 30" />
+  </entities>
+</level12>

@@ -1,0 +1,232 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectGuid>{9C5AA3C4-C2D1-4EC5-95AF-ACA5BCF31BD8}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inkwell</RootNamespace>
+    <AssemblyName>Inkwell</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v3.1</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>e7ef4ed5-4a37-4d3a-b1d9-d89c9183e233</XnaCrossPlatformGroupID>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Assets.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Framework\AI\Enemies\AceCard.cs" />
+    <Compile Include="Framework\AI\Enemies\AliceBookworm.cs" />
+    <Compile Include="Framework\AI\Enemies\BlackCard.cs" />
+    <Compile Include="Framework\AI\Enemy.cs" />
+    <Compile Include="Framework\AI\NPCs\Hedgehog.cs" />
+    <Compile Include="Framework\AI\Enemies\JackCard.cs" />
+    <Compile Include="Framework\AI\mAI.cs" />
+    <Compile Include="Framework\AI\Enemies\QueenHearts.cs" />
+    <Compile Include="Framework\AI\Enemies\RedCard.cs" />
+    <Compile Include="Framework\AI\NPCs\Caterpillar.cs" />
+    <Compile Include="Framework\AI\NPCs\CheshireCat.cs" />
+    <Compile Include="Framework\AI\NPCs\KingHearts.cs" />
+    <Compile Include="Framework\AI\NPCs\Teaparty\MadHatter.cs" />
+    <Compile Include="Framework\AI\NPCs\Teaparty\Teacup.cs" />
+    <Compile Include="Framework\AI\NPCs\Teaparty\MarchHare.cs" />
+    <Compile Include="Framework\AI\NPCs\WhiteRabbit.cs" />
+    <Compile Include="Framework\Audio\mAudio.cs" />
+    <Compile Include="Framework\Audio\Sound.cs" />
+    <Compile Include="Framework\Camera\mCamera.cs" />
+    <Compile Include="Framework\Camera\Types\FixedCamera.cs" />
+    <Compile Include="Framework\Camera\Types\FreeCamera.cs" />
+    <Compile Include="Framework\Camera\Camera.cs" />
+    <Compile Include="Framework\Cinematic\mCinematic.cs" />
+    <Compile Include="Framework\Cinematic\mDialogue.cs" />
+    <Compile Include="Framework\Cinematic\VideoEffect.cs" />
+    <Compile Include="Framework\Debugger\Data\DebugBB.cs" />
+    <Compile Include="Framework\Debugger\Debugger.cs" />
+    <Compile Include="Framework\File\mFile.cs" />
+    <Compile Include="Framework\Graphics\Main\Basic Model\BasicModel.cs" />
+    <Compile Include="Framework\Graphics\Shader Effects\Model Processes\Skybox.cs" />
+    <Compile Include="Framework\Graphics\Shader Effects\Post Processess\Bloom\BloomEffect.cs" />
+    <Compile Include="Framework\Graphics\Shader Effects\Post Processess\Bloom\BloomSettings.cs" />
+    <Compile Include="Framework\Graphics\Main\Basic Model\cModel.cs" />
+    <Compile Include="Framework\Graphics\Main\Animation\mAnimation.cs" />
+    <Compile Include="Framework\Graphics\Main\Damage\mDamage.cs" />
+    <Compile Include="Framework\Graphics\Main\mEffect.cs" />
+    <Compile Include="Framework\Graphics\Main\mGraphics.cs" />
+    <Compile Include="Framework\Graphics\Main\mModel.cs" />
+    <Compile Include="Framework\Graphics\Shader Effects\Post Processess\Depth of Field\DepthofField.cs" />
+    <Compile Include="Framework\Graphics\Shader Effects\Post Processess\Vignette\Vignette.cs" />
+    <Compile Include="Framework\Hero\mAvatar.cs" />
+    <Compile Include="Framework\Input\mInput.cs" />
+    <Compile Include="Framework\Level Manager\cLevel.cs" />
+    <Compile Include="Framework\Level Manager\mLevel.cs" />
+    <Compile Include="Framework\Menu\AreYouSure.cs" />
+    <Compile Include="Framework\Menu\AudioMenu.cs" />
+    <Compile Include="Framework\Menu\ControlsMenu.cs" />
+    <Compile Include="Framework\Menu\DeleteSave.cs" />
+    <Compile Include="Framework\Menu\GameOverMenu.cs" />
+    <Compile Include="Framework\Menu\LoadMenu.cs" />
+    <Compile Include="Framework\Menu\LogoMenu.cs" />
+    <Compile Include="Framework\Menu\MainMenu.cs" />
+    <Compile Include="Framework\Menu\mMenu.cs" />
+    <Compile Include="Framework\Menu\MenuScreen.cs" />
+    <Compile Include="Framework\Menu\NewGameMenu.cs" />
+    <Compile Include="Framework\Menu\OptionsMenu.cs" />
+    <Compile Include="Framework\Menu\PauseMenu.cs" />
+    <Compile Include="Framework\Menu\PauseOptionsMenu.cs" />
+    <Compile Include="Framework\Menu\VideoMenu.cs" />
+    <Compile Include="Framework\Particle\Data\Emitter.cs" />
+    <Compile Include="Framework\Particle\Data\Particle.cs" />
+    <Compile Include="Framework\Particle\mParticle.cs" />
+    <Compile Include="Framework\Particle\Types\Dust\DustEmitter.cs" />
+    <Compile Include="Framework\Particle\Types\Rain\RainEmitter.cs" />
+    <Compile Include="Framework\Physics\mPhysics.cs" />
+    <Compile Include="Framework\Physics\mTimer.cs" />
+    <Compile Include="Framework\Triggers\Trigger.cs" />
+    <Compile Include="Framework\Triggers\Types\DialogueTrigger.cs" />
+    <Compile Include="Framework\Triggers\Types\ExitTrigger.cs" />
+    <Compile Include="Framework\UI\UI.cs" />
+    <Compile Include="Game\Levels\AliceLevel1.cs" />
+    <Compile Include="Game\Levels\AliceLevel12.cs" />
+    <Compile Include="Game\Levels\AliceLevel13.cs" />
+    <Compile Include="Game\Levels\AliceLevel14.cs" />
+    <Compile Include="Game\Levels\AliceLevel15.cs" />
+    <Compile Include="Game\Levels\AliceLevel2.cs" />
+    <Compile Include="Game\Levels\AliceLevel2_1.cs" />
+    <Compile Include="Game\Levels\AliceLevel3-1.cs" />
+    <Compile Include="Game\Levels\AliceLevel3.cs" />
+    <Compile Include="Game\Levels\AliceLevel4.cs" />
+    <Compile Include="Game\Levels\AliceLevel5.cs" />
+    <Compile Include="Game\Levels\AliceLevel6.cs" />
+    <Compile Include="Game\Levels\AliceLevel7.cs" />
+    <Compile Include="Game\Levels\AliceLevel8.cs" />
+    <Compile Include="Game\Levels\AliveLevel11.cs" />
+    <Compile Include="Game\Levels\BattleTestLevel.cs" />
+    <Compile Include="Game\Levels\AliceLevel9.cs" />
+    <Compile Include="Game\Levels\AliceLevel10.cs" />
+    <Compile Include="Game\Levels\DemoLevel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\Core.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\BlankLevel.txt" />
+    <Content Include="Documents\Setup.txt" />
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>76fedce4-c845-4af1-b8af-2f3c0cb5ea59</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Framework\Graphics\Shader Effects\Post Processess\Gray Scale\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

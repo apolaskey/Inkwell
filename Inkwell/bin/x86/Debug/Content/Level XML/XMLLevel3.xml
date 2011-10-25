@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0, alpha: 1, ambient and diffuse: 255 255 255 255, scalar: 1-->
+<level3>
+  <assets>
+    <doodad position="-50 -50 -70" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Level Textures\Level 2\Grass" modelProps="Opaque" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-400 -15 91" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\background" modelProps="Opaque" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-50 -15 91" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\background" modelProps="Opaque" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="300 -15 91" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\background" modelProps="Opaque" tileVec="1 1" flipVec ="1 1"></doodad>
+
+    <!--<doodad position="350 -1 -100" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Cave\OutterCave_Left" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="350 -15 180" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Cave\InnerCave_Left" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>-->
+    <!--Trees-->
+    <doodad position="200 0 15" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="0 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="10 0 15" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="20 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="100 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="115 0 -75" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="130 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="100 0 50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="115 0 55" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="130 0 50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="150 0 89" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="165 0 85" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="180 0 89" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-100 0 -90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-85 0 -85" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-60 0 -90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-150 0 90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-135 0 85" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="-120 0 90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="280 0 -90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="320 0 -85" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="380 0 -90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="250 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="265 0 25" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="280 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="300 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="315 0 15" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="330 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="350 0 115" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="365 0 120" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+    <doodad position="380 0 115" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Planes\Plane0" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec ="1 1"></doodad>
+  </assets>
+  <entities>
+    <enemy position ="-100 2 0" EnemyType="WhiteRabbit"></enemy>
+    <enemy position ="0 0 0" EnemyType="Hedgehog"></enemy>
+    <enemy position ="50 0 -10" EnemyType="Hedgehog"></enemy>
+    <enemy position ="285 0 60" EnemyType="Hedgehog"></enemy>
+    <enemy position ="149 0 -60" EnemyType="Hedgehog"></enemy>
+    <enemy position ="21 0 -13" EnemyType="Hedgehog"></enemy>
+    <enemy position ="250 0 -1" EnemyType="Hedgehog"></enemy>
+    <enemy position ="120 0 -15" EnemyType="Hedgehog"></enemy>
+    <enemy position ="69 0 68" EnemyType="Hedgehog"></enemy>
+    <enemy position ="105 0 59" EnemyType="Hedgehog"></enemy>
+    <enemy position ="89 0 99" EnemyType="Hedgehog"></enemy>
+
+  </entities>
+</level3>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, ambient and diffuse: 255 255 255 255, scalar: 1-->
+<level9>
+  <assets>
+    <!--<wall position ="0 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Level Textures\Level 2\sky" modelProps="Opaque" tileVec="1 1"></wall>-->
+    <!--<wall position ="350 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\ProgrammerArtBackground\Background" modelProps="Opaque" tileVec="1 1"></wall>-->
+    <doodad position = "0 -50 0" rotation ="0 0 0" diffuseEnabled="true" scalar ="1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Environment\Ground\Grass" modelProps="Opaque" tileVec="8 8" flipVec="1 1"></doodad>
+	<!--<land position = "350 0 0" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Environment\Ground\Grass" modelProps="Opaque" tileVec="16 8"></land>-->
+  	<doodad position = "-90 0 -60" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "-80 0 -73" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane5" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "-75 0 -55" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane5" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "-65 0 -45" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane5" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "-57 0 50" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	<doodad position = "-60 0 35" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+  	<doodad position = "-55 0 30" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+  	<doodad position = "-63 0 20" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane5" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+   	<doodad position = "-61 0 21" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+  	<doodad position = "-53 0 44" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "190 0 100" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "225 0 123" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "240 0 130" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "265 0 106" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "300 0 115" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "315 0 90" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "325 0 123" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane4" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position = "330 0 115" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+  </assets>
+  <entities>
+  <!-- <char ID ="avatar" position = "-50 0 0" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseolor = "255 255 255 255" scalar = "1"></char>-->
+  <enemy EnemyType ="CheshireCat" position = "400 0 0" />
+    <enemy EnemyType ="AliceBookworm" position = "70 0 -10" />
+    <enemy EnemyType ="AliceBookworm" position = "90 0 -45" />
+    <enemy EnemyType ="AliceBookworm" position = "120 0 -65" />
+    <enemy EnemyType ="AliceBookworm" position = "145 0 100" />
+    <enemy EnemyType ="AliceBookworm" position = "150 0 73" />
+    <enemy EnemyType ="AliceBookworm" position = "175 0 35" />
+    <enemy EnemyType ="AliceBookworm" position = "220 0 -5" />
+    <enemy EnemyType ="AliceBookworm" position = "225 0 -49" />
+  </entities>
+</level9>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dialog>
+	<level1>
+		<bob>What just happened? Where am I? Oh hi...</bob><!--(gets cut off)-->
+		<rabbit>You should watch where you’re going! First some old man, now... ugh. You lot just ruffle my fur. Don’t you know I’m late? … I’M LATE!</rabbit><!--rabbit runs off-->
+		<bob>Who was that? Who is this “old man” he’s talking about? Maybe he’ll help me figure out what’s going on. I should follow him.</bob><!--player is shown controls for movement and then has to walk off screen to continue-->
+	</level1>
+	<level2>
+		<!--white rabbit runs offscreen-->
+		<bob>HEY! WAIT UP!! Eek. This river looks kinda dangerous. (*inhales deeply*) I can do this.</bob><!--(*player is shown how to jump and has to ‘traverse’ the river to continue*)-->
+	</level2>
+	<level3>
+		<bob>You said something about a old man? Where is he?</bob>
+		<rabbit>Hey, it’s that person again. Have you seen my watch? I think i dropped it back near the river... If you find it i can take you to the Mad Hatter who might know where the old man is.</rabbit>
+		<rabbit>Have you found my WATCH yet?</rabbit><!--(*player has to go back to the last ‘page/panel’ to find the WATCH on the rocks then bring it back*)-->
+		<rabbit>Hey, thanks! Not only can I show you where the Mad Hatter is, I can give you this: (inkwell appears) I heard that if you press (letter) you can activate your special ability. This only works if your inkwell meter (bar or container) is full, of course. I figured you could use it since you have one of those.</rabbit> <!--(*points to Bob’s pocket*)-->
+		<bob>What the...?</bob><!--(*reaches into his pocket and pulls out the PENBLADE*)-->
+		<rabbit>Try it out!</rabbit><!--(*player has to hit ‘letter’ to start the ability and then hit some OBJECTS into a target board 3-5x to continue*)-->
+		<rabbit>When the meter is out, you can use a normal attack by pressing (letter). Try it out!</rabbit><!--(*player has to hit ‘letter’ to attack and defeat 3 DUMMY ENEMIES*)-->
+		<bob>Wow. It’s like I’m in one of those stories grandpa used to read to me.</bob>
+		<rabbit>That’s very.. OH NO! I’m late.</rabbit><!--dashes into cave-->
+		<bob>Wait! You said you would show me where the Mad Hatter is.</bob> <!--player must follow rabbit-->
+	</level3>
+	<level4>
+		<bob>Where did he go?</bob><!--(*player needs to use his regular attack to kill WORM enemies, player will gain some INK. player needs to progress to the next ‘page/panel’*)-->
+	</level4>
+	<level5>
+	<!--(*player gets INKWELL and has to use ability to hit MOLES out of the way to progress to next ‘page/panel’ to continue*)-->
+	</level5>
+	<level6>
+		<bob>Excuse me. Have you seen a little white rabbit running by here?</bob><!--player walks up to caterpillar-->
+		<caterpillar>Who is asking?</caterpillar>
+		<bob>Er.. My name is Bob. I’m not from around here. At least, I don’t think I am. You know?</bob>
+		<caterpillar>No.</caterpillar>
+		<bob>Well, that doesn’t matter. Have you seen him?</bob>
+		<caterpillar>Seen whom?</caterpillar>
+		<bob>The white rabbit?</bob>
+		<caterpillar>Yes.</caterpillar>
+		<bob>Well?</bob>
+		<caterpillar>"Well" what?</caterpillar>
+		<bob>Where did he go?</bob>
+		<caterpillar>If you wanted to know where he went, then you should have asked. He’s deep in the woods.</caterpillar>
+		<bob>Thanks. I guess.</bob><!--(*player moves past the caterpillar and towards the forest.*)-->
+	</level6>
+	<level7>
+		<rabbit>Help! Oh gosh. The queen will have my head. It’s you again. Help!</rabbit><!--(*player has to use his regular attack to defeat WORM enemies blocking the path*)-->
+		<rabbit>Thank you! I must hurry. The queen doesn’t like to wait.</rabbit><!--runs off-->
+		<bob>This queen is beginning to sound awfully mean.</bob><!--(*player chases after the white rabbit*)-->
+	</level7>
+	<level8>
+		<rabbit>Oh, hey. Boy, over here. Mad Hatter, boy. Boy, Mad Hatter. Debt repaid. Have to get to the Queen. Bye!</rabbit><!--runs off-->
+		<bob>And there he goes again. He said something about an old man. What did he look like? Where was he going?</bob>
+		<hatter>Why yes. He was about yay tall with graying hair. Said something about doing whatever it takes to get to the moon. Why do you ask?</hatter>
+		<bob>That sounds like my grandpa. But it couldn’t be. He hasn’t been to the house in a long time... Maybe.. maybe he’s stuck in here too! Wherever here is. Which way did he go?</bob>
+		<hatter>Headed towards the queen’s castle. Thought he could get her to help.</hatter>
+		<bob>Maybe she can help me too! Which way is that?</bob>
+		<hatter>NO! You should not go there! She is not a nice person! Not a nice person at all.</hatter>
+		<bob>But I need to find the old man that you are talking about</bob>
+		<hatter>I cannot let you do that. TAKE THIS! AND THAT! AND some of THIS!</hatter><!--(*begins throwing plates and cups at the player which they must move up and down to avoid and get to the other end of the table*)-->
+		<hatter>You...you... you dodged my plates... Maybe there’s hope in you yet. Maybe you can take the Red Queen down after all...</hatter>
+		<bob>Wait a minute... take down?</bob>
+		<hatter>I think the old man went to see the queen, and now he’s a prisoner. She isn’t a 	very nice person. Downright demanding and rude, if you ask me. But if you really want to see the Queen, you should go that way and go to the castle..</hatter>
+	</level8>
+	<level9>
+		<bob>Off to the castle...I think I can see it in the distance...Uh oh, not again</bob><!--(*WORM enemies block the path*)(*player must use the regular attack to fight through WORM enemies and make it to the next ‘page/panel’*)-->
+	</level9>
+	<level10>
+		<cat>Where might you be going?</cat><!--(*Cheshire Cat appears in front of player*)-->
+		<bob>Whoa! Who are you?</bob>
+		<cat>I asked first. Where are you going?</cat>
+		<bob>I’m going to talk to the Red Queen.</bob>
+		<cat>Oh yes. Just like your grandfather. Curious how you both stumbled into this book.</cat>
+		<bob>What!? Book? I’ve never read this book before. What book is this? How did I get in here? And...my...grandpa? You saw him? Why is he here?</bob>
+		<cat>You should talk to the Queen. She is not very popular around here. But, she does know where your grandfather is...</cat><!--fades out-->
+		<bob>Wait! Come back!</bob>
+	</level10>
+	<level11>
+		<bob>Almost there. I just have to get past these... cards? Oh boy..</bob> <!--card enemies appear, and must be defeated to move on-->
+	</level11>
+	<level13>
+		<bob>Why can’t things just stay still in this world? I guess I’ll just have to be extra careful here. I can do this.</bob>
+	</level13>
+	<level14>
+		<bob>What kind of a castle is this? At least this room looks safe. Wait. I hear something. I must be close to the Queen. No sign of my grandpa anywhere.</bob>
+	</level14>
+	<level15>
+		<bob>Are you the Red Queen?</bob>
+		<queen>Oh?</queen>
+		<queen>MAYBE I AM. WHO ARE YOU?</queen>
+		<bob>I’m sorry if I bothered you. I.. I’m looking for someone. A man. An old man. I hear you know where he is.</bob>
+		<queen>THAT OLD MAN. (*grumbles*) JUST WALTZING UP HERE.. (*grumbles*) IF I SEE HIM AGAIN, I’LL..</queen>
+		<bob>You did see my grandpa! What did you do to him?</bob>
+		<queen>WHY YOU LITTLE.. HOW DARE YOU INTERRUPT ME. NOBODY INTERRUPTS ME. YOUR GRANDPA MIGHT HAVE GOTTEN AWAY, BUT I’LL TEACH YOU SOME MANNERS. OFF WITH YOUR HEAD!!!</queen>
+		<bob>I did it! But.. This doesn’t solve anything. Where’s my grandpa? What did she do to him? How do I get home?</bob><!--(*finds a torn piece of fabric in the Queen’s “remains”*)-->
+		<bob>This is grandpa’s favorite shirt. He had to have gone through here. If only I can figure out where he went...</bob><!--(*a shining light pulls Bob out of the book*)-->
+	</level15>
+</dialog>

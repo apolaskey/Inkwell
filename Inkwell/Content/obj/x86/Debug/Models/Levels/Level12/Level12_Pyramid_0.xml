@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Pyramid01</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Andrew\Desktop\Dropbox\Inkwell\Inkwell\Content\Models\Levels\Level12\Level12_Pyramid.FBX</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1.8369441 0 0 0 0 5.203602E-16 -1.8369441 0 0 1.8369441 5.203602E-16 0 0 0 0 1</Transform>
+    <Positions>0 0 20 -10 -10 0 10 -10 0 10 10 0 -10 10 0 0 0 0</Positions>
+    <Geometry>
+      <Batch>
+        <Indices>2 1 0 5 4 3 8 7 6 11 10 9 14 13 12 15 13 14 16 13 15 12 13 16</Indices>
+        <Vertices>
+          <PositionIndices>0 1 2 0 2 3 0 3 4 0 4 1 1 5 2 3 4</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 -0.8944272 0.4472136 0 -0.89442724 0.44721362 0 -0.89442724 0.44721362 0.8944272 0 0.4472136 0.89442724 0 0.44721362 0.89442724 0 0.44721362 0 0.8944272 0.4472136 0 0.89442724 0.44721362 0 0.89442724 0.44721362 -0.8944272 0 0.4472136 -0.89442724 0 0.44721362 -0.89442724 0 0.44721362 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.5 0 0 1 1 1 0.5 0 0 1 1 1 0.5 0 0 1 1 1 0.5 0 0 1 1 1 0 0 0.5 0.5 1 0 1 1 0 1</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, scalar: 1, ambient and diffuse: 255 255 255 255-->
+<!--<doodad position ="0 0 0" rotation="0 0 0" alpha="1" scalar="1" 
+ ambientColor="0 0 0 0" diffuseColor="255 255 255 255" locationModel="Models\Planes\Plane0" 
+locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1" />-->
+
+<level4>
+  <assets>
+    <doodad ID ="wall" position="90 -10 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\WallBoxMK2" locationTexture="Textures\Environment\Cave\InnerCave_Left" modelProps="Opaque" tileVec="1 1" flipVec="1 1"></doodad>
+    <!--<wall ID="wall" position="90 -10 -176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\WallBoxMK2" locationTexture="Textures\Environment\Cave\OuterCave_Left" modelProps="Alpha" tileVec="1 1" />-->
+    <doodad ID ="land" position="180 -50 0" rotation ="0 0 0" diffuseEnabled="true" scalar ="1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Environment\Ground\Dark Stones" modelProps="Opaque" tileVec="7 7" flipVec="1 1"></doodad>
+    <doodad ID ="rock" position ="170 0 120" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position ="275 0 65" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "10 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "78 0 50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "120 0 -130" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "280 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "-20 0 -50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "60 0 -5" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+  
+  </assets>
+  <entities>
+    <enemy EnemyType="AliceBookworm" position="180 -20 95" />
+    <enemy EnemyType="AliceBookworm" position="190 -20 -90" />
+    <enemy EnemyType="AliceBookworm" position="200 -20 85" />
+    <enemy EnemyType="AliceBookworm" position="220 -20 -80" />
+    <enemy EnemyType="AliceBookworm" position="240 -20 75" />
+    <enemy EnemyType="AliceBookworm" position="185 -20 -70" />
+    <enemy EnemyType="AliceBookworm" position="195 -20 65" />
+    <enemy EnemyType="AliceBookworm" position="205 -20 -60" />
+    <enemy EnemyType="AliceBookworm" position="215 -20 55" />
+    <enemy EnemyType="AliceBookworm" position="225 -20 -50" />
+    <enemy EnemyType="AliceBookworm" position="235 -20 45" />
+    <enemy EnemyType="AliceBookworm" position="180 -20 -40" />
+    <enemy EnemyType="AliceBookworm" position="195 -20 35" />
+    <enemy EnemyType="AliceBookworm" position="205 -20 -30" />
+    <enemy EnemyType="AliceBookworm" position="215 -20 25" />
+    <enemy EnemyType="AliceBookworm" position="220 -20 -20" />
+    <enemy EnemyType="AliceBookworm" position="235 -20 15" />
+    <enemy EnemyType="AliceBookworm" position="250 -20 -10" />
+    <enemy EnemyType="AliceBookworm" position="245 -20 5" />
+    <enemy EnemyType="AliceBookworm" position="245 -20 0" />
+    <enemy EnemyType="AliceBookworm" position="175 -20 -50" />
+    <enemy EnemyType="AliceBookworm" position="175 -20 -25" />
+    <enemy EnemyType="AliceBookworm" position="170 -20 75" />
+    <enemy EnemyType="AliceBookworm" position="170 -20 -100" />
+    
+  </entities>
+</level4>

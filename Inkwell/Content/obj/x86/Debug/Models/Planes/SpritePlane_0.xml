@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>Plane01</Name>
+    <Identity>
+      <SourceFilename>C:\Users\Andrew\Desktop\Dropbox\Inkwell\Inkwell\Content\Models\Planes\SpritePlane.FBX</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1.48022962 0 0 0 0 1.48022962 6.470289E-08 0 0 -6.470289E-08 1.48022962 0 0 0 0 1</Transform>
+    <Positions>-5 -5 0 5 -5 0 -5 5 0 5 5 0</Positions>
+    <Geometry>
+      <Batch>
+        <Indices>2 1 0 1 2 3</Indices>
+        <Vertices>
+          <PositionIndices>2 0 3 1</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 0 0 1 1 0 1 1</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+</XnaContent>

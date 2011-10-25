@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, ambient and diffuse: 255 255 255 255, scalar: 1-->
+<level7>
+  <assets>
+    <doodad position ="0 -51 0" rotation ="0 0 0" diffuseEnabled="true" scalar ="1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Level Textures\Level 2\grass" modelProps="Opaque" tileVec="8 8" flipVec="1 1"></doodad>
+    <doodad position ="-350 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\ForestBG" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="0 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\ForestBG" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="350 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\ForestBG" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	  <doodad position ="400 0 80" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="310 0 -80" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="300 0 80" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="200 0 -50" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="240 0 80" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	  <doodad position ="250 0 -20" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+  	<doodad position ="280 0 0" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	  <doodad position ="360 0 -20" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_01" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	  <doodad position ="410 0 60" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	  <doodad position ="360 0 30" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+	  <doodad position ="260 0 -80" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Environment\Trees\Tree_03" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+    <doodad position ="-110 -56 90" rotation ="0 0 0" diffuseEnabled="true" scalar = "1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\Backgrounds\CaveExit" modelProps="Alpha" tileVec="1 1" flipVec="1 1"></doodad>
+  </assets>
+  <entities>
+  <!-- <char ID ="avatar" position = "-50 0 0" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseolor = "255 255 255 255" scalar = "1"></char>-->
+  <!--<enemy EnemyType ="CheshireCat" position = "700 0 0" />-->
+    <enemy EnemyType ="WhiteRabbit" position ="-30 0 0" />
+    <enemy EnemyType ="AliceBookworm" position = "150 0 50" />
+    <enemy EnemyType ="AliceBookworm" position = "120 0 20" />
+    <enemy EnemyType ="AliceBookworm" position = "180 0 30" />
+    <enemy EnemyType ="AliceBookworm" position = "130 0 10" />
+    <enemy EnemyType ="AliceBookworm" position = "160 0 -50" />
+    <enemy EnemyType ="AliceBookworm" position = "130 0 -50" />
+    <enemy EnemyType ="AliceBookworm" position = "190 0 70" />
+    <enemy EnemyType ="AliceBookworm" position = "150 0 -30" />
+	<enemy EnemyType ="AliceBookworm" position = "200 0 50" />
+  </entities>
+</level7>

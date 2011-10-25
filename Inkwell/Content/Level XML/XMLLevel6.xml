@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, scalar: 1, ambient and diffuse: 255 255 255 255-->
+<!--<doodad position ="0 0 0" rotation="0 0 0" alpha="1" scalar="1" 
+ ambientColor="0 0 0 0" diffuseColor="255 255 255 255" locationModel="Models\Planes\Plane0" 
+locationTexture="Textures\Environment\Trees\Tree_02" modelProps="Alpha" tileVec="1 1" flipVec="1 1" />-->
+
+<level6>
+  <assets>
+    <doodad ID="wall" position="90 -10 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\WallBoxMK2" locationTexture="Textures\Environment\Cave\InnerCave_Right" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <!--<wall ID="wall" position="90 -10 -176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\WallBox" locationTexture="Textures\Environment\Cave\OuterCave_Right" modelProps="Alpha" tileVec="1 1" />-->
+    <doodad ID="land" position="180 -50 0" rotation ="0 0 0" diffuseEnabled="true" scalar ="1" locationModel="Models\Basic Objects\LandBox" locationTexture="Textures\Environment\Ground\Dark Stones" modelProps="Opaque" tileVec="7 7" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position ="200 0 20" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position ="230 0 60" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "10 0 -80" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "78 0 50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "143 0 -90" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "280 0 -50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "330 0 -50" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\tallRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+    <doodad ID ="rock" position = "340 0 -95" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Levels\Level 2\shortRock" locationTexture="Textures\Level Textures\Level 2\rock" modelProps="Opaque" tileVec="1 1" flipVec="1 1" ></doodad>
+  </assets>
+  <entities>
+    <!--<enemy enemyType="Caterpillar" position="300 0 0" />-->
+  </entities>
+</level6>

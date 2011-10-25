@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Default values: rot:0 0 0 0, alpha: 1, ambient and diffuse: 255 255 255 255, scalar: 1-->
+<level10>
+  <assets>
+    <!--<wall position ="0 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Level Textures\Level 2\sky" modelProps="Opaque" tileVec="1 1"></wall>-->
+    <!--<wall position ="350 1 176" rotation="0 0 0" diffuseEnabled="true" scalar="1" locationModel="Models\Basic Objects\Wall" locationTexture="Textures\Environment\ProgrammerArtBackground\Background" modelProps="Opaque" tileVec="1 1"></wall>-->
+    <doodad position = "0 -50 0" rotation ="0 0 0" diffuseEnabled="true" scalar ="1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Environment\Ground\Grass" modelProps="Opaque" tileVec="8 8" flipVec="1 1"></doodad>
+    <!--<land position = "350 0 0" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor = "255 255 255 255" scalar = "1" locationModel="Models\Basic Objects\Land" locationTexture="Textures\Environment\Ground\Grass" modelProps="Opaque" tileVec="16 8"></land>-->
+  </assets>
+  <entities>AliceBookworm
+ <!-- <enemy ID ="avatar" position = "-50 0 0" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseolor = "255 255 255 255" scalar = "1"></char>-->
+    <enemy EnemyType ="AliceBookworm" position = "50 0 -50" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Character\heroIdle0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "65 0 -20" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "75 0 -45" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "110 0 -35" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "120 0 -65" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "155 0 -55" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane3" locationTexture="Textures\Character\heroIdle0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "170 0 -100" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "185 0 -86" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "200 0 -45" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "225 0 -35" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "250 0 -110" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "260 0 -78" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "275 0 -40" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "290 0 -30" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "325 0 -35" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+    <enemy EnemyType ="AliceBookworm" position = "345 0 -20" rotation = "0 0 0" alpha = "1" ambientColor = "0 0 0 0" diffuseColor  = "255 255 255 255" scalar = "1" locationModel="Models\Planes\Plane2" locationTexture="Textures\Bookworm\wormMove0" modelProps="Alpha" tileVec="16 8" />
+  </entities>
+</level10>
